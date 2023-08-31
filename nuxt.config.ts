@@ -6,5 +6,9 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {}
     }
+  },
+  modules: ['@nuxt/content'],
+  content: {
+    // https://content.nuxtjs.org/api/configuration
   }
 })
